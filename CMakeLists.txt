@@ -11,4 +11,5 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(dep/glfw)
+add_subdirectory(dep/glad)
 add_subdirectory(src)
